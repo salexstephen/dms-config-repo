@@ -2,4 +2,5 @@ configuration:
   projectName: dms
 server:
   port: 8888
-greeting: Hello from the configuration!
+
+rabbit_environment: http://scdf-server-qa.apps.digifabric.cognizant.com/
