@@ -4,5 +4,5 @@ server:
   port: 8888
 
 rabbit_environment: http://scdf-server-qa.apps.digifabric.cognizant.com/
-
+rabbit_service_name: p-rabbitmq
 
