@@ -18,3 +18,8 @@ userconfig_table_name: USER_CONFIG_TEMPLATE
 database_tablename: DMS_DB 
 database_environment: CLOUD
 mongo_service: admin
+config_table: config   
+logtype: RABBITLOG
+logger_select: graylog
+grayLogurl: http://loggerservice_mvp2.apps.digifabric.cognizant.com/saveLog 
+config_logLevel: info
