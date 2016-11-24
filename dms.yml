@@ -9,20 +9,4 @@ rabbit_service_name: p-rabbitmq
 rabbit_listener_queue_name: appfactory.dms.listner.queue
 rabbit_listener_exchange_name: appfactory.dms.listner.exchange
 rabbit_sender_queue_name: appfactory.dms.response.queue
-rabbit_sender_exchange_name: appfactory.dms.exchange  
-rabbit_sender_url: http://AppManagerServer.mvp2.cognizantone.org/app/pushMsg
-rabbit_logger_queue_name: CognizantFoundryServices
-rabbit_logger_exchange_name: noexchange  
-mongo_instance: mongodb   
-concurrent_users: 5
-userconfig_table_name: USER_CONFIG_TEMPLATE
-database_tablename: DMS_DB 
-database_environment: CLOUD
-mongo_service: admin
-config_table: config   
-logtype: RABBITLOG
-logger_select: graylog
-grayLogurl: http://loggerservice_mvp2.apps.digifabric.cognizant.com/saveLog 
-config_logLevel: info
-config_useProxy: false
-dblog_tablename: DMS_LOG
+
