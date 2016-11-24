@@ -12,3 +12,9 @@ rabbit_sender_exchange_name: appfactory.dms.exchange
 rabbit_sender_url: http://AppManagerServer.mvp2.cognizantone.org/app/pushMsg
 rabbit_logger_queue_name: CognizantFoundryServices
 rabbit_logger_exchange_name: noexchange
+mongo_instance: mongodb   
+concurrent_users: 5
+userconfig_table_name: USER_CONFIG_TEMPLATE
+database_tablename: DMS_DB 
+database_environment: CLOUD
+mongo_service: admin
