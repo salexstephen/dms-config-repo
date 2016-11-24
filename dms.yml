@@ -2,5 +2,4 @@ configuration:
   projectName: dms
 server:
   port: 8888
-
-  greeting: Hello from the configuration!
+greeting: Hello from the configuration!
