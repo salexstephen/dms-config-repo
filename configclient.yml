@@ -1,6 +1,6 @@
 configuration:  
-  projectName: configclient
+  projectName: dms
 server:
   port: 8888
-message:
+
   greeting: Hello from the configuration!
