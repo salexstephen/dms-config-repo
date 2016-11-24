@@ -25,3 +25,4 @@ grayLogurl: http://loggerservice_mvp2.apps.digifabric.cognizant.com/saveLog
 config_logLevel: info
 config_useProxy: false
 dblog_tablename: DMS_LOG
+dblog_tablename1: xyz
