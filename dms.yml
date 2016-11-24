@@ -7,4 +7,8 @@ rabbit_environment: http://scdf-server-qa.apps.digifabric.cognizant.com/
 rabbit_service_name: p-rabbitmq
 rabbit_listener_queue_name: appfactory.dms.listner.queue
 rabbit_listener_exchange_name: appfactory.dms.listner.exchange
-
+rabbit_sender_queue_name: appfactory.dms.response.queue
+rabbit_sender_exchange_name: appfactory.dms.exchange  
+rabbit_sender_url: http://AppManagerServer.mvp2.cognizantone.org/app/pushMsg
+rabbit_logger_queue_name: CognizantFoundryServices
+rabbit_logger_exchange_name: noexchange
