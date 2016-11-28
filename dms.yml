@@ -3,7 +3,7 @@ configuration:
 server:
   port: 8888
 
-rabbit_environment: http://scdf-server-qa.apps.digifabric.cognizant.com/
+rabbit_environment: http://asdf-server-qa.apps.digifabric.cognizant.com/
 rabbit_service_name: p-rabbitmq
 rabbit_listener_queue_name: appfactory.dms.listner.queue
 rabbit_listener_exchange_name: appfactory.dms.listner.exchange
